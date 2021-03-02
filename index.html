@@ -23,25 +23,39 @@
             width: 100%;
             margin-bottom: 40px;
         }
-        nav {
+        header>img {
+            display: inline-block;
+            height: 50px;
+            float:left;
+        }
+        header>nav {
             display: inline-block;
             float: right;
-            margin-top: 20px;
+            margin-top: 10px;
             padding-left: 20px;
+
         }
         a {
             display: inline-block;
+            float:left;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
             text-decoration: none;
+            line-height: 20px;
             margin-left: 13px;
             font-size: 19px;
             color: grey;
+            border: 5px solid transparent;
 
         }
-        .sing {
-            border-style: solid;
+        
+        a:last-of-type {
+            text-transform: uppercase;
+            border: solid;
             border-radius: 15px;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
         }
         
         section {
@@ -69,7 +83,7 @@
        
 
         }
-        .mergaite {
+        section>img {
             display: inline-block;
             float: left;
             width: 55%;
@@ -88,7 +102,7 @@
             <a href="#">Tracks</a>
             <a href="#">Library</a>
             <a href="#">Community</a>
-            <a class="sing" href="#">Sing in</a>
+            <a href="#">Sign in</a>
         </nav>
     </header>
     <section>
@@ -96,7 +110,7 @@
             <h1>404</h1>
             <p>The link is broken or the page has been moved.</p>
         </div>
-        <img class="mergaite" src="./mergaite.png" alt="mergaite">
+        <img src="./mergaite.png" alt="mergaite">
     </section>
     </main>
     
