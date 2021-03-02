@@ -7,4 +7,4 @@
 https://kappowas.github.io/3-mergaite/
 
 ##Autorius
-Audrius [Github] (https://github.com/kappowas)
+Audrius [Github](https://github.com/kappowas)
