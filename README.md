@@ -2,9 +2,9 @@
 Čia mano antrasis mokomasis projektas.
 
 
-##Nuoroda
+## Nuoroda
 
 https://kappowas.github.io/3-mergaite/
 
-##Autorius
+## Autorius
 Audrius [Github] (https://github.com/kappowas)
